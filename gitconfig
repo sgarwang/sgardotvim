@@ -1,0 +1,9 @@
+[user]
+  name  = sgar wang
+  email = sgar.wang@splashtop.com
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  lo = log

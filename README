@@ -1,4 +1,15 @@
 
 Hong-Sheng Sgar Wang's VIM configuration
 
+cd ~
+git clone http://github.com/sgarwang/sgardotvim.git ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.vim/gitconfig ~/.gitconfig
 
+cd ~/.vim
+git submodule init
+git submodule foreach git pull origin master	; git submodule update
+
+References:
+	- http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/
